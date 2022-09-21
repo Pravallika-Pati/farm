@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:aliceblue;
+}
+#home{
+  background-image: url("crop.jpg");
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  font-size: 5rem;
+  font: bold 80px Sans-Serif;
+  padding-bottom: 3%;
+}
+.glow{
+		color: #202c2d;
+		text-shadow:
+		  0 1px #808d93,
+		  -1px 0 #cdd2d5,
+		  -1px 2px #808d93,
+		  -2px 1px #cdd2d5,
+		  -2px 3px #808d93,
+		  -3px 2px #cdd2d5,
+		  -3px 4px #808d93,
+		  -4px 3px #cdd2d5,
+		  -4px 5px #808d93,
+		  -5px 4px #cdd2d5,
+		  -5px 6px #808d93,
+		  -6px 5px #cdd2d5,
+		  -6px 7px #808d93,
+		  -7px 6px #cdd2d5,
+		  -7px 8px #808d93,
+		  -8px 7px #cdd2d5;
+  }
+  #login{
+    height: 100vh;
+    padding: 10px;
+    padding: 5% 24%;
+    margin-bottom: 2%;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .containerr{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .containerr .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+  }
+  .containerr .title::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .contentt form .user-details{
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    /* width: calc(100% / 2 - 20px); */
+  }
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #9b59b6;
+  }
+  form .button{
+     height: 45px;
+     margin: 35px 0
+   }
+   form .button input{
+     height: 100%;
+     width: 100%;
+     border-radius: 5px;
+     border: none;
+     color: #fff;
+     font-size: 18px;
+     font-weight: 500;
+     letter-spacing: 1px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   }
+   form .button input:hover{
+    /* transform: scale(0.99); */
+    background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+    }
+ .global-container {  
+  height: 100%;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+}  
+ 
+.card-title {   
+font-weight: 300;  
+}  
+.btn {  
+  font-size: 14px;  
+  margin-top: 20px;  
+}  
+.ct a{
+  color: black;
+}
+#products{
+  margin-left:3%;
+  margin-right:3%;
+}
+#products h1{
+  padding-bottom: 2%;
+}
+#products button{
+  padding-bottom:2%;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;  }
+.column img{
+  border-radius:10%;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.card:hover {
+  box-shadow: 0 10px 20px 0 rgba(0,0,0,0.2);
+}
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 16px;
+  height: 80%;
+  text-align: center;
+}
+
+.column img{
+  object-fit: cover;
+}
+.cost{
+  color:grey;
+}
+.card button {
+  border-radius: 30px;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.8;
+}
+/* footer section */
+.footer {
+	text-align: center;
+	bottom: 0%;
+	width: 100%;
+	height: 60px;
+	background-color: #373a39;
+}
+.footer p {
+	padding-top:1%;
+	/* font-size: 12px; */
+  color: #fff;
+}
+
+
+
